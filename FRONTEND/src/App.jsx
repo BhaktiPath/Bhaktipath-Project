@@ -1,5 +1,12 @@
-import "./App.css";
+import "./assets/css/global.css";
+import HomaePage from "./pages/Home";
 
-function App() {}
+function App() {
+  return (
+    <>
+      <HomaePage />
+    </>
+  );
+}
 
 export default App;
