@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unknown-property */
 import Card from "../components/Card";
 import GaneshJi from "../assets/img/ganesha.png";
+import gita from "../assets/img/gita.png"
 
 export default function HomaePage() {
   return (
@@ -54,10 +55,17 @@ export default function HomaePage() {
           image={GaneshJi}
           alt="Gyatri Mantra"
           mantra="
-Om bhur bhuvaha svaha
-Tat savitur varenyam
-Bhargo devasya dhimahi
-Dhiyo yo nah prachodayat"
+          ऊँ भूर्भुव: स्व: 
+          तत्सवितुर्वरेण्यं 
+          भर्गो देवस्य धीमहि। 
+          धियो यो न: प्रचोदयात्"
+        />
+         <Card
+          image={gita}
+          alt="Gyatri Mantra"
+          mantra="
+          यदा यदा हि धर्मस्य ग्लानिर्भवति भारत।
+अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम्‌॥"
         />
       </section>
     </>
