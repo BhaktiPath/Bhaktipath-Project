@@ -1,4 +1,7 @@
 /* eslint-disable react/no-unknown-property */
+import Card from "../components/Card";
+import GaneshJi from "../assets/img/ganesha.png";
+
 export default function HomaePage() {
   return (
     <>
@@ -39,12 +42,23 @@ export default function HomaePage() {
         </header>
         <div className="container">
           <div className="quotes">
-            <blockquote className="quote1">
-              <p className="test1">Test1</p>
-              <p className="test2">Test2</p>
+            <blockquote className="quote">
+              Our mission is to share the good of{" "}
+              <span className="highlight-text"> Hindusim.</span>
             </blockquote>
           </div>
         </div>
+      </section>
+      <section className="mantras">
+        <Card
+          image={GaneshJi}
+          alt="Gyatri Mantra"
+          mantra="
+Om bhur bhuvaha svaha
+Tat savitur varenyam
+Bhargo devasya dhimahi
+Dhiyo yo nah prachodayat"
+        />
       </section>
     </>
   );
