@@ -175,8 +175,14 @@ body {
   gap: 2.4rem;
   align-items: center;
   justify-content: center;
+  padding: 2rem;
 }
 
 .accordin-mantra {
   font-size: 2.6rem;
+}
+
+.accordin-image{
+  height : 20rem;
+  border-radius: 2rem;
 }

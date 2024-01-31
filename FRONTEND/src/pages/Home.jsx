@@ -2,6 +2,9 @@
 import Card from "../components/Card";
 import GaneshJi from "../assets/img/ganesha.png";
 import gita from "../assets/img/gita.png"
+import avtar from "../assets/img/avtar.png"
+
+
 
 export default function HomaePage() {
   return (
@@ -60,15 +63,22 @@ export default function HomaePage() {
           भर्गो देवस्य धीमहि। 
           धियो यो न: प्रचोदयात्"
         />
-         <Card
+        <Card
           image={gita}
           alt="Gyatri Mantra"
           mantra="
           यदा यदा हि धर्मस्य ग्लानिर्भवति भारत।
-अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम्‌॥"
+          अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम्‌॥"
+        />
+        <Card
+          image={avtar}
+          alt="Gyatri Mantra"
+          mantra="
+          परित्राणाय साधूनाम् विनाशाय च दुष्कृताम्।
+धर्मसंस्थापनार्थाय सम्भवामि युगे-युगे॥"
         />
       </section>
-      
+
     </>
   );
 }
