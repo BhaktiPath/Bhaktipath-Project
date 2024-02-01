@@ -337,16 +337,16 @@ body {
 
 .socials {
   display: flex;
-<<<<<<< HEAD
+
   gap: 3.2rem;
   color: #fff;
   font-size: 2.8rem;
-=======
-  gap: 2.4rem;
+
+
   align-items: center;
   justify-content: center;
   padding: 2rem;
->>>>>>> 03ffc206a1c460571519b10c3eaf955a6b87bf0b
+
 }
 
 .about-links {

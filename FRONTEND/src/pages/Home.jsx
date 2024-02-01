@@ -6,6 +6,16 @@ import FamousCard from "../components/FamousCards";
 import AstrologyImage from "../assets/img/astrology.png";
 import CalendarImage from "../assets/img/calender.png";
 import MandirImage from "../assets/img/Mandir.png";
+import granthImage from "../assets/img/granth.png";
+import jyotishImage from "../assets/img/jyotish.png";
+import kathaImage from "../assets/img/katha.png";
+import panchangImage from "../assets/img/panchang.png"
+import ramImage from "../assets/img/ram.png"
+import hanumanImage from "../assets/img/hanuman.png"
+import lakshmiImage from "../assets/img/lakshmi.png"
+import krishnaImage from "../assets/img/krishna.png"
+import durgaImage from "../assets/img/durga.png"
+import kaliImage from "../assets/img/kali.png"
 import { FaYoutube, FaInstagram } from "react-icons/fa";
 
 export default function HomaePage() {
@@ -85,28 +95,28 @@ export default function HomaePage() {
             </a>
             <a href="/test_redirect" target="_blank" className="explore-more">
               <ExploreCards
-                image={AstrologyImage}
+                image={granthImage}
                 alt="Know The Your Astrology"
                 about="Granth"
               />
             </a>
             <a href="/test_redirect" target="_blank" className="explore-more">
               <ExploreCards
-                image={AstrologyImage}
+                image={kathaImage}
                 alt="Know The Your Astrology"
                 about="Katha"
               />
             </a>
             <a href="/test_redirect" target="_blank" className="explore-more">
               <ExploreCards
-                image={AstrologyImage}
+                image={panchangImage}
                 alt="Know The Your Astrology"
                 about="Panchang"
               />
             </a>
             <a href="/test_redirect" target="_blank" className="explore-more">
               <ExploreCards
-                image={AstrologyImage}
+                image={jyotishImage}
                 alt="Know The Your Astrology"
                 about="Jyotish"
               />
@@ -163,34 +173,34 @@ export default function HomaePage() {
         <div className="other-container">
           <div className="grid grid-three-columns">
             <FamousCard
-              image={MandirImage}
+              image={kaliImage}
               alt="Mamdir Image"
-              text="kali puja"
+              text="Kali Chalisa"
             />
             <FamousCard
-              image={MandirImage}
+              image={durgaImage}
               alt="Mamdir Image"
-              text="durga puja"
+              text="Durga Chalisa"
             />
             <FamousCard
-              image={MandirImage}
+              image={krishnaImage}
               alt="Mamdir Image"
-              text="kali puja"
+              text="Krishna Chalisa"
             />
             <FamousCard
-              image={MandirImage}
+              image={hanumanImage}
               alt="Mamdir Image"
-              text="kali puja"
+              text="Hanuman Chalisa"
             />
             <FamousCard
-              image={MandirImage}
+              image={ramImage}
               alt="Mamdir Image"
-              text="kali puja"
+              text="Ram Chalisa"
             />
             <FamousCard
-              image={MandirImage}
+              image={lakshmiImage}
               alt="Mamdir Image"
-              text="kali puja"
+              text="Lakshmi Chalisa"
             />
           </div>
         </div>
