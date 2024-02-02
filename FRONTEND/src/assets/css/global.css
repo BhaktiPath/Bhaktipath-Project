@@ -41,12 +41,12 @@ body {
 }
 
 .thoughts {
-  background-color: #000;
+  background-color: #f5633e;
   padding: 1.6rem;
 }
 
 .thought {
-  color: #fff;
+  color: white;
   font-size: 1.4rem;
   display: inline;
 }
