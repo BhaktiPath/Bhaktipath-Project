@@ -195,10 +195,46 @@ body {
   column-gap: 3.6rem;
 }
 
+.card-container{
+  display: flex;
+}
+
+.card{
+  display: flex;
+  padding: 1rem;
+}
+
+.accordin-images {
+  display: flex;
+  margin-left: 7.2rem;
+}
+
+.accordin-image {
+  width: 24rem;
+  transition: all 0.6s;
+}
+
+.accordin-image:hover {
+  transform: scale(1.1);
+}
+
+.accordin-mantra{
+  
+  font-size: 3rem;
+  padding: 4rem;
+  align-items: center;
+}
+
+.accordin-image{
+  height : 20rem;
+  border-radius: 2rem;
+}
+
+
+
 .image-card {
   position: relative;
 }
-
 .explore-card {
   width: 27rem;
   filter: blur(0.1rem);
@@ -230,6 +266,7 @@ body {
 .gallery-image {
   width: 27rem;
   transition: all 0.6s;
+  border-radius: 2rem;
 }
 
 .gallery-image:hover {
@@ -318,8 +355,9 @@ body {
 }
 
 .grid-two-columns {
+  display: flex;
   grid-template-columns: repeat(2, 1.5fr);
-  column-gap: 4.2rem;
+  column-gap: 8rem;
 }
 
 .queries {
@@ -392,7 +430,37 @@ body {
   color: #ee5700;
 }
 
-.accordin-image{
-  height : 20rem;
-  border-radius: 2rem;
+.comment-box {
+  width: 80rem;
+  margin: 5rem auto;
+  background-color: #fff;
+  padding: 3rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 30rem;
+
 }
+
+.comment-box textarea {
+  width: 20rem;
+  height: 20rem;
+  padding: 2rem;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+.comment-box button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.comment-box button:hover {
+  background-color: #07a20f;
+}
+

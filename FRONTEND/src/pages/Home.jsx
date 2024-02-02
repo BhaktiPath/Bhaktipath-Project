@@ -17,6 +17,7 @@ import krishnaImage from "../assets/img/krishna.png"
 import durgaImage from "../assets/img/durga.png"
 import kaliImage from "../assets/img/kali.png"
 import { FaYoutube, FaInstagram } from "react-icons/fa";
+import Shlokcard from "../components/Shlokcard";
 
 export default function HomaePage() {
   return (
@@ -70,6 +71,37 @@ export default function HomaePage() {
               जो वेद और शास्त्र के ग्रंथों को याद कर लेता है किंतु उनके यथार्थ
               तत्व को नहीं समझता, उसका वह याद रखना व्यर्थ है।
             </p>
+          </div>
+        </div>
+      </section>
+      <section className="gallery">
+        <div className="other-container">
+          <div className="heading">
+            <h1 className="section-heading-primary">Shlok</h1>
+          </div>
+          <div className="card-container">
+
+          <marquee
+            onMouseOver={(e) => {
+              e.target.stop();
+            }}
+            onMouseOut={(e) => {
+              e.target.start();
+            }}
+          >
+            <Shlokcard image={ramImage} alt="Test Alt" mantra="योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय।
+
+सिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते।।"/>
+            <Shlokcard image={krishnaImage} alt="Test Alt" mantra="न हि ज्ञानेन सदृशं पवित्रमिह विद्यते।
+
+तत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति॥
+"/>
+            <Shlokcard image={hanumanImage} alt="Test Alt" mantra="वेदाविनाशिनं नित्यं य एनमजमव्ययम्‌ ।
+
+कथं स पुरुषः पार्थ कं घातयति हन्ति कम्‌ ॥
+"/>
+            
+          </marquee>
           </div>
         </div>
       </section>
@@ -137,12 +169,12 @@ export default function HomaePage() {
               e.target.start();
             }}
           >
-            <GalleryCards image={AstrologyImage} alt="Test Alt" />
-            <GalleryCards image={AstrologyImage} alt="Test Alt" />
-            <GalleryCards image={AstrologyImage} alt="Test Alt" />
-            <GalleryCards image={AstrologyImage} alt="Test Alt" />
-            <GalleryCards image={AstrologyImage} alt="Test Alt" />
-            <GalleryCards image={AstrologyImage} alt="Test Alt" />
+            <GalleryCards image={ramImage} alt="Test Alt" />
+            <GalleryCards image={krishnaImage} alt="Test Alt" />
+            <GalleryCards image={kaliImage} alt="Test Alt" />
+            <GalleryCards image={kathaImage} alt="Test Alt" />
+            <GalleryCards image={lakshmiImage} alt="Test Alt" />
+            <GalleryCards image={hanumanImage} alt="Test Alt" />
           </marquee>
         </div>
       </section>
@@ -238,9 +270,10 @@ export default function HomaePage() {
                   </a>
                 </div>
               </div>
-              {/* <div className="comment-box">
-                <input type="text" name="" id="" />
-              </div> */}
+              <div className="comment-box about-links">
+                <textarea placeholder="Write your comment here..."></textarea>
+                  <button onclick="submitComment()">Submit</button>
+               </div>
             </div>
           </div>
         </footer>
