@@ -390,6 +390,7 @@ famous.images{
   color: #fff;
   text-transform: uppercase;
   margin-bottom: 4.2rem;
+  width: 40rem;
 }
 
 .about-text {
@@ -509,6 +510,3 @@ famous.images{
   background-color: #07a20f;
 }
 
-.icon{
-  transition: 1ms;
-}
