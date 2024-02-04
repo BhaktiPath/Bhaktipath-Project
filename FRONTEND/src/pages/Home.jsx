@@ -81,7 +81,7 @@ export default function HomaePage() {
           </div>
           <div className="card-container">
 
-            <marquee
+            <marquee className="card-containerin"
               onMouseOver={(e) => {
                 e.target.stop();
               }}

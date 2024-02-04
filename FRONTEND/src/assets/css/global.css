@@ -197,7 +197,10 @@ body {
 
 .card-container{
   display: flex;
-  flex-direction: row;
+ 
+}
+.card-containerin{
+  display: flex;
 }
 
 
