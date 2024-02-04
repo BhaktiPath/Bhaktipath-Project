@@ -81,27 +81,37 @@ export default function HomaePage() {
           </div>
           <div className="card-container">
 
-          <marquee
-            onMouseOver={(e) => {
-              e.target.stop();
-            }}
-            onMouseOut={(e) => {
-              e.target.start();
-            }}
-          >
-            <Shlokcard image={ramImage} alt="Test Alt" mantra="योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय।
+            <marquee
+              onMouseOver={(e) => {
+                e.target.stop();
+              }}
+              onMouseOut={(e) => {
+                e.target.start();
+              }}
+            >
 
-सिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते।।"/>
-            <Shlokcard image={krishnaImage} alt="Test Alt" mantra="न हि ज्ञानेन सदृशं पवित्रमिह विद्यते।
+              <Shlokcard image={ramImage} alt="Test Alt"
+                mantra="योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय।
 
-तत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति॥
-"/>
-            <Shlokcard image={hanumanImage} alt="Test Alt" mantra="वेदाविनाशिनं नित्यं य एनमजमव्ययम्‌ ।
+सिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते।।"   
+              />
 
-कथं स पुरुषः पार्थ कं घातयति हन्ति कम्‌ ॥
-"/>
-            
-          </marquee>
+
+
+              <Shlokcard image={krishnaImage} alt="Test Alt"
+                            mantra="न हि ज्ञानेन सदृशं पवित्रमिह विद्यते।
+
+तत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति॥"
+              />
+
+              <Shlokcard image={hanumanImage} alt="Test Alt"
+                            mantra="वेदाविनाशिनं नित्यं य एनमजमव्ययम्‌ ।
+
+कथं स पुरुषः पार्थ कं घातयति हन्ति कम्‌ ॥"
+              />
+
+
+            </marquee>
           </div>
         </div>
       </section>
@@ -116,6 +126,8 @@ export default function HomaePage() {
                 image={AstrologyImage}
                 alt="Know The Your Astrology"
                 about="Astrolgy"
+                description="
+                Astrology is an ancient belief system that interprets celestial positions to understand human behavior and predict events. It explores connections between the cosmos and individual destinies, providing insights into personality traits and life paths"
               />
             </a>
             <a href="/test_redirect" target="_blank" className="explore-more">
@@ -123,6 +135,7 @@ export default function HomaePage() {
                 image={CalendarImage}
                 alt="Know The Your Astrology"
                 about="Calendar"
+                description="rajat is great"
               />
             </a>
             <a href="/test_redirect" target="_blank" className="explore-more">
@@ -130,6 +143,7 @@ export default function HomaePage() {
                 image={granthImage}
                 alt="Know The Your Astrology"
                 about="Granth"
+                description="rajat is great"
               />
             </a>
             <a href="/test_redirect" target="_blank" className="explore-more">
@@ -137,6 +151,7 @@ export default function HomaePage() {
                 image={kathaImage}
                 alt="Know The Your Astrology"
                 about="Katha"
+                description="rajat is great"
               />
             </a>
             <a href="/test_redirect" target="_blank" className="explore-more">
@@ -144,6 +159,7 @@ export default function HomaePage() {
                 image={panchangImage}
                 alt="Know The Your Astrology"
                 about="Panchang"
+                description="rajat is great"
               />
             </a>
             <a href="/test_redirect" target="_blank" className="explore-more">
@@ -151,6 +167,7 @@ export default function HomaePage() {
                 image={jyotishImage}
                 alt="Know The Your Astrology"
                 about="Jyotish"
+                description="rajat is great"
               />
             </a>
           </div>
@@ -272,8 +289,8 @@ export default function HomaePage() {
               </div>
               <div className="comment-box about-links">
                 <textarea placeholder="Write your comment here..."></textarea>
-                  <button onclick="submitComment()">Submit</button>
-               </div>
+                <button onclick="submitComment()">Submit</button>
+              </div>
             </div>
           </div>
         </footer>

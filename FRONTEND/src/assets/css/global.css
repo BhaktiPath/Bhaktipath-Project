@@ -197,11 +197,18 @@ body {
 
 .card-container{
   display: flex;
+  flex-direction: row;
 }
+
 
 .card{
   display: flex;
+  /* margin: 7.2rem;
+  width: 50rem; */
+  align-items: center;
   padding: 1rem;
+  
+ 
 }
 
 .accordin-images {
@@ -238,6 +245,7 @@ body {
 .explore-card {
   width: 27rem;
   filter: blur(0.1rem);
+  border-radius: 2rem;
 }
 
 .about-card {
@@ -247,6 +255,25 @@ body {
   left: 5%;
   color: #ee5700;
   font-weight: 600;
+}
+.description-card {
+  position: absolute;
+  width: 27rem;
+  height: 98%;
+  bottom: 1%;
+  left: 1%;
+  border-radius: 2rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  word-wrap: break-word;
+  font-size: 2rem;
+  color: #000;
+}
+
+.image-card:hover .description-card {
+  opacity: 1;
 }
 
 .explore-more {
@@ -306,9 +333,13 @@ body {
   width: 100%;
 }
 
+famous.images{
+  position: relative;
+}
 .famous-image {
   width: 100%;
   margin-bottom: 1.4rem;
+  border-radius: 2rem;
 }
 
 .alignment {
@@ -325,6 +356,17 @@ body {
 
 .icon {
   font-size: 1.6rem;
+   transform:translateX(0rem);
+}
+
+.famous-images:hover .icon{
+ 
+  animation: moveArrow 3s ease;
+}
+@keyframes moveArrow{
+  to {
+    transform: translateX(25rem);
+  }
 }
 
 .footer-section {
@@ -464,3 +506,6 @@ body {
   background-color: #07a20f;
 }
 
+.icon{
+  transition: 1ms;
+}
