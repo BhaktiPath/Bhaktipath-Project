@@ -262,9 +262,8 @@ body {
 .description-card {
   position: absolute;
   width: 27rem;
-  height: 98%;
-  bottom: 1%;
-  left: 1%;
+  height: 100%;
+  bottom: 0%;
   border-radius: 2rem;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 10px;
