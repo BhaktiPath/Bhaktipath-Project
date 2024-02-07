@@ -37,7 +37,7 @@ export default function HomaePage() {
               <h1 className="web-logo">bhakti path</h1>
             </div>
             <ul className="nav-elements">
-              <a href="/" className="nav-item">
+              <a href="/aarti" className="nav-item">
                 <li>home</li>
               </a>
               <a href="/" className="nav-item">
@@ -55,6 +55,7 @@ export default function HomaePage() {
               <a href="/" className="nav-item">
                 <li>stories</li>
               </a>
+
             </ul>
           </div>
         </div>
@@ -93,19 +94,19 @@ export default function HomaePage() {
               <Shlokcard image={ramImage} alt="Test Alt"
                 mantra="योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय।
 
-सिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते।।"   
+सिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते।।"
               />
 
 
 
               <Shlokcard image={krishnaImage} alt="Test Alt"
-                            mantra="न हि ज्ञानेन सदृशं पवित्रमिह विद्यते।
+                mantra="न हि ज्ञानेन सदृशं पवित्रमिह विद्यते।
 
 तत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति॥"
               />
 
               <Shlokcard image={hanumanImage} alt="Test Alt"
-                            mantra="वेदाविनाशिनं नित्यं य एनमजमव्ययम्‌ ।
+                mantra="वेदाविनाशिनं नित्यं य एनमजमव्ययम्‌ ।
 
 कथं स पुरुषः पार्थ कं घातयति हन्ति कम्‌ ॥"
               />
