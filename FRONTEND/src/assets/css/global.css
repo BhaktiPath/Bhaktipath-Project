@@ -233,6 +233,7 @@ body {
   font-size: 3rem;
   padding: 4rem;
   align-items: center;
+  line-height: 5rem;
 }
 
 .accordin-image{
@@ -605,4 +606,61 @@ famous.images{
   font-size: 3rem;
   color: #000;
   margin-top: 2rem; 
+}
+
+.content-box{
+  margin-top: 5rem;
+}
+
+.content-card{
+  background-color: #7c7a78;
+  width: 85%;
+  border-radius: 2rem;
+ word-wrap: break-word;
+}
+
+.content{
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 2rem;
+  padding: 2rem;
+  color: #000000;
+}
+
+.section-heading-primary-content{
+  text-transform: uppercase;
+  font-size: 4.6rem;
+  color: #ee5700;
+  margin-bottom: 4.8rem;
+}
+
+.content-heading {
+  text-align:left;
+  margin-left: 15rem;
+}
+
+.youtubeVideo{
+  height : 40rem;
+  width: 60rem;
+  border-radius: 2rem;
+  align-items: center;
+  margin-left: 5rem;
+}
+
+.content-video{
+
+  /* margin: 7.2rem;
+  width: 50rem; */
+  align-items: center;
+  padding: 1rem;
+  
+}
+
+.youtube-mantra{
+  
+  font-size: 3rem;
+  padding: 4rem;
+  align-content: center;
+  line-height: 5rem;
+  margin-left: 5rem;
 }

@@ -1,6 +1,7 @@
 import "./assets/css/global.css";
 import HomaePage from "./pages/Home";
 import SecondaryPage from "./pages/Secondary";
+import DisplayPage from "./pages/Display";
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <HomaePage />
       <SecondaryPage />
+      <DisplayPage />
     </>
   );
 }

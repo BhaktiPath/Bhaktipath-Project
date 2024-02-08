@@ -4,7 +4,7 @@ export default function Card(props) {
    
       <div className="card">
         <img src={props.image} alt={props.alt} className="accordin-image" />
-        <pre className="accordin-mantra">{props.mantra}</pre>
+        <p className="accordin-mantra">{props.mantra}</p>
       </div>
     
   );
