@@ -2,6 +2,7 @@ import ExploreCards from "../components/ExploreCards";
 import GalleryCards from "../components/GalleryCards";
 import FamousCard from "../components/FamousCards";
 import Aarticard from "../components/Aarticard";
+import FactsCard from "../components/FactsCard";
 import AstrologyImage from "../assets/img/astrology.png";
 import CalendarImage from "../assets/img/calender.png";
 import MandirImage from "../assets/img/Mandir.png";
@@ -18,6 +19,7 @@ import kaliImage from "../assets/img/kali.png"
 import { FaYoutube, FaInstagram } from "react-icons/fa";
 import Shlokcard from "../components/Shlokcard";
 
+
 export default function SecondaryPage() {
     return (
         <>
@@ -33,7 +35,7 @@ export default function SecondaryPage() {
                     </div>
                     <div className="navbar">
                         <div className="logo">
-                            <h1 className="web-logo">bhakti path</h1>
+                            <h1 className="web-logo">Prabhu Prem</h1>
                         </div>
                         <ul className="nav-elements">
                             <a href="" className="nav-item">
@@ -127,24 +129,58 @@ export default function SecondaryPage() {
                             </div>
 
                             <div className="recently-visit">
-                            <h2 className="section-heading-primary-recent">Recently Visited</h2>
+                                <h2 className="section-heading-primary-recent">Recently Visited</h2>
                             </div>
 
                             <div className="categories-contents">
                                 <div className="something">
-                                <a className="recent-content" href="/">Hanuman chalisa</a>
+                                    <a className="recent-content" href="/">Hanuman chalisa</a>
                                 </div>
                                 <div className="something">
-                                <a className="recent-content" href="/">Krishna chalisa</a>
+                                    <a className="recent-content" href="/">Krishna chalisa</a>
                                 </div>
                                 <div className="something">
-                                <a className="recent-content" href="/">Ram chalisa</a>
-                                </div>         
+                                    <a className="recent-content" href="/">Ram chalisa</a>
+                                </div>
                             </div>
 
                         </div>
                     </div>
                 </div>
+            </section>
+
+            <section className="facts-area">
+                <div className="facts-box">
+                    <div className="aarti-heading">
+                        <h1 className="section-heading-primary">Some more facts</h1>
+                    </div>
+
+                    <div>
+                        <FactsCard
+                        image={AstrologyImage}
+                        alt="ramImage"
+                        factsName="Astrology"
+                        factscontent="xyz was the first astrologist"
+                        />
+
+                        <FactsCard
+                        image={kaliImage}
+                        alt="kaliImage"
+                        factsName="Kali Temple"
+                        factscontent="kali temple in bengal ssdfgcjhsbdfhbvjhsvdhjzczjhv"
+                        />
+
+                        <FactsCard
+                        image={krishnaImage}
+                        alt="krishnaImage"
+                        factsName="Krishna Temple"
+                        factscontent="xyz was the first astrologistsdhvbj sbh 
+dkjv dksvhiu vub ufvsjkf sf csdgv zdbfuiv fbuyvyu kfdvy yuzdvzbh vhhv zuysfvbz ufg sdf"
+                        />
+                    </div>
+
+                </div>
+
             </section>
 
             <section className="footer-section">

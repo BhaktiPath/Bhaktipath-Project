@@ -585,3 +585,24 @@ famous.images{
 .something{
   margin-bottom: 2rem;
 }
+
+.facts-area{
+}
+
+.facts-box{
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 6.4rem 0;
+  border: 5rem #000 ;
+}
+
+.facts-content{
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.facts-name{
+  font-size: 3rem;
+  color: #000;
+  margin-top: 2rem; 
+}

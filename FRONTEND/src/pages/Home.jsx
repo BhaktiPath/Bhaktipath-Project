@@ -34,7 +34,7 @@ export default function HomaePage() {
           </div>
           <div className="navbar">
             <div className="logo">
-              <h1 className="web-logo">bhakti path</h1>
+              <h1 className="web-logo">Prabhu Prem</h1>
             </div>
             <ul className="nav-elements">
               <a href="/aarti" className="nav-item">
