@@ -19,6 +19,7 @@ import kaliImage from "../assets/img/kali.png"
 import { FaYoutube, FaInstagram } from "react-icons/fa";
 import Shlokcard from "../components/Shlokcard";
 
+
 export default function HomaePage() {
   return (
     <>
@@ -307,3 +308,5 @@ export default function HomaePage() {
     </>
   );
 }
+
+

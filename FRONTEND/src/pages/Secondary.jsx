@@ -20,6 +20,7 @@ import { FaYoutube, FaInstagram } from "react-icons/fa";
 import Shlokcard from "../components/Shlokcard";
 
 
+
 export default function SecondaryPage() {
     return (
         <>
@@ -235,3 +236,5 @@ dkjv dksvhiu vub ufvsjkf sf csdgv zdbfuiv fbuyvyu kfdvy yuzdvzbh vhhv zuysfvbz u
 
     )
 }
+
+
