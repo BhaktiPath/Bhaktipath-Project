@@ -269,6 +269,8 @@ export default function HomaePage() {
                 </p>
                 <h1 className="queries">for queries</h1>
                 <p className="email">support@bhaktipath.com</p>
+                <h1 className="queries">for bug report</h1>
+                <p className="email">security@bhaktipath.com</p>
                 <div className="socials">
                   <FaInstagram />
                   <FaYoutube />
