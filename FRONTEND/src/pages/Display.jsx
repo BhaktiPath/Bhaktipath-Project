@@ -22,6 +22,24 @@ import { FaYoutube, FaInstagram } from "react-icons/fa";
 import Shlokcard from "../components/Shlokcard";
 
 
+const fetch = require('node-fetch');
+
+
+async function fetchData() {
+    try {
+        const response = await fetch('FRONTEND/src/assets/data/data.json');
+        if (!response.ok) {
+            throw new Error('Failed to fetch data');
+        }
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error('Error fetching data:', error);
+        return null;
+    }
+}
+
+
 export default function SecondaryPage() {
     return (
         <>
